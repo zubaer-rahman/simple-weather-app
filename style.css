@@ -103,3 +103,6 @@ li{
  #weather-input{
      max-width: 550px;
  }
+ .container{
+     max-height: 1200px;
+ }
