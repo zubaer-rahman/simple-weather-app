@@ -14,12 +14,12 @@ input, label {
 }
 
 #city-input{
-    width: 400px;
+    width: 350px;
 }
 #weather-output {
-    max-width: 475px;
+    max-width: 425px;
     margin: 0 auto;
-    height: 440px;
+    height: 400px;
     background-image: url(images/How-to-Build-an-API-Driven-Weather-App.png);
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -60,8 +60,8 @@ small{
 li{
     font-size: 20px;
     color: rgb(25, 18, 18);
-    font-weight: 800;
-    line-height: 35px;
+    font-weight: 700;
+    line-height: 25px;
  }
  #extras{
      color: black;
@@ -88,10 +88,10 @@ li{
     white-space: 10px;
  }
  #list-extra {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(25, 18, 18);
-    font-weight: 500;
-    line-height: 35px;
+    font-weight: 400;
+    line-height: 25px;
  }
  .col1, .col2, .col3 {
     height: 120px;
