@@ -37,7 +37,7 @@ searchCity = () => {
     console.log(response);
     showWeatherData(response);
   }).catch((error) =>{
-    console.log(error);
+    alert("Opps! Please enter defined city only")
   })
 }
 
@@ -46,11 +46,25 @@ searchCity = () => {
  * HINT: make sure to console log the weatherData to see how the data looks like
  */
 showWeatherData = (weatherData) => {
+  let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  let d = new Date();
+  let dayName = days[d.getDay()];
+
+  let sunriseTime = new Date(weatherData.sys.sunrise).toLocaleTimeString();
+  let sunsetTime = new Date(weatherData.sys.sunset).toLocaleTimeString();
+
   //CODE GOES HERE
+   
+  document.getElementById('icon').src = `http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   document.getElementById('city-name').innerText = weatherData.name;
   document.getElementById('weather-type').innerText = weatherData.weather[0].main;
+  document.getElementById('date').innerText = dayName;
   document.getElementById('temp').innerText = weatherData.main.temp;
   document.getElementById('min-temp').innerText = weatherData.main.temp_max;
   document.getElementById('max-temp').innerText = weatherData.main.temp_min;
+  document.getElementById('c1').innerText = weatherData.sys.country;
+  document.getElementById('c2').innerText = sunriseTime;
+  document.getElementById('c3').innerText = sunsetTime;
+  document.getElementById('c4').innerText = weatherData.wind.speed;
 }
 

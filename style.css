@@ -1,12 +1,101 @@
 
+body {
+    background: url(images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 
+input, label {
+    display:block;
+}
+.btn{
+    margin-top:31px;
+    height: 50px;
+}
 
-#city-input, #weather-output {
-    max-width: 400px;
+#city-input{
+    width: 600px;
+}
+#weather-output {
+    max-width: 675px;
     margin: 0 auto;
+    height: 440px;
+    background-image: url(images/How-to-Build-an-API-Driven-Weather-App.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 5px 10px 10px rgb(160, 145, 192), -5px 10px 10px rgb(160, 145, 192);
+}
+.body-top {
+    background-color: rgb(14, 228, 171);
+    margin-bottom: 3%;
+    height: 100px;
+    padding-top: 22px;
 }
   
 .banner {
-    color: #FFD23F;
-    font-family: sans-serif;
+    color: white;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.card {
+
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+}
+small{
+    text-align: left;
+    margin-right: 100%;
+    color: aliceblue;
+}
+#icon{
+    height: 50px;
+}
+#temp, #min-temp, #max-temp{
+    color: rgb(178, 17, 17);
+}
+
+li{
+    font-size: 20px;
+    color: rgb(25, 18, 18);
+    font-weight: 800;
+    line-height: 35px;
+ }
+ #extras{
+     color: black;
+     font-weight: 500;
+ }
+ #card-header{
+     border-bottom-style: none;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     background-color: rgb(228, 145, 145);
+ }
+ #city-name{
+     color:rgb(25, 18, 18);
+     font-weight: 700;
+ }
+ #weather-type{
+    color:rgb(25, 18, 18);
+    font-weight: 700;
+ }
+ #date{
+    color:rgb(25, 18, 18);
+    font-weight: 500;
+    font-size: 20px;
+    white-space: 10px;
+ }
+ #list-extra {
+    font-size: 20px;
+    color: rgb(25, 18, 18);
+    font-weight: 500;
+    line-height: 35px;
+ }
+ .col1, .col2, .col3 {
+    height: 120px;
+    border-right: 1px solid rgb(14, 228, 171);
+ }
+ #c1, #c2, #c3, #c4{
+    color: rgb(178, 17, 17);
+ }
