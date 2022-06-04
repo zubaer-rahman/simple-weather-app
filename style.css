@@ -24,7 +24,7 @@ input, label {
     background-repeat: no-repeat;
     border-radius: 10px;
     background-size: cover;
-    box-shadow: 5px 10px 10px rgb(160, 145, 192), -5px 10px 10px rgb(160, 145, 192);
+    box-shadow: 2px 5px 5px rgb(160, 145, 192), -2px 5px 5px rgb(160, 145, 192);
 }
 .body-top {
     background-color: rgb(14, 228, 171);
