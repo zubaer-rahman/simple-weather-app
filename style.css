@@ -14,10 +14,10 @@ input, label {
 }
 
 #city-input{
-    width: 600px;
+    width: 500px;
 }
 #weather-output {
-    max-width: 675px;
+    max-width: 575px;
     margin: 0 auto;
     height: 440px;
     background-image: url(images/How-to-Build-an-API-Driven-Weather-App.png);
@@ -29,8 +29,8 @@ input, label {
 .body-top {
     background-color: rgb(14, 228, 171);
     margin-bottom: 3%;
-    height: 100px;
-    padding-top: 22px;
+    height: 75px;
+    padding-top: 15px;
 }
   
 .banner {
@@ -98,4 +98,7 @@ li{
  }
  #c1, #c2, #c3, #c4{
     color: rgb(178, 17, 17);
+ }
+ #weather-input{
+     max-width: 550px;
  }
